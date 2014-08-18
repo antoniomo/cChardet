@@ -20,7 +20,9 @@
  * the Initial Developer. All Rights Reserved.
  *
  * Contributor(s):
- *          Shy Shalom <shooshX@gmail.com>
+ *          Antonio Macías <antonio.macias.ojeda@gmail.com> - Backport to CPP
+ *          Rob Speer - adapt to MacRoman encoding in Python (chardet)
+ *          Shy Shalom <shooshX@gmail.com> - Original Latin1 prober
  *
  * Alternatively, the contents of this file may be used under the terms of
  * either the GNU General Public License Version 2 or later (the "GPL"), or
