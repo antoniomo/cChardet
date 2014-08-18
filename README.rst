@@ -40,6 +40,7 @@ Support codecs
 -  X-ISO-10646-UCS-4-2143
 -  X-ISO-10646-UCS-4-3412
 -  x-mac-cyrillic
+-  MacRoman
 
 Requires
 --------

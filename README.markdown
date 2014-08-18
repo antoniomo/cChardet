@@ -36,6 +36,7 @@ cChardet is high speed universal character encoding detector. - binding to [char
 *   X-ISO-10646-UCS-4-2143
 *   X-ISO-10646-UCS-4-3412
 *   x-mac-cyrillic
+*   MacRoman
 
 ## Requires
 *   Cython: [http://www.cython.org/](http://www.cython.org/)

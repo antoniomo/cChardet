@@ -40,7 +40,7 @@
 
 class nsCharSetProber;
 
-#define NUM_OF_CHARSET_PROBERS  3
+#define NUM_OF_CHARSET_PROBERS  4
 
 typedef enum {
   ePureAscii = 0,

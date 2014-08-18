@@ -40,6 +40,7 @@ from nose.tools import eq_
 # X-ISO-10646-UCS-4-2143
 # X-ISO-10646-UCS-4-3412
 # x-mac-cyrillic
+# MacRoman
 import cchardet
 
 class TestCchardet():
@@ -154,6 +155,15 @@ class TestCchardet():
     def test_detect_en_windows1252(self):
         encoding = "WINDOWS-1252"
         path = r"testdata/en/WINDOWS-1252/wikitop_en_WINDOWS-1252.txt"
+        with open(path, 'rb') as f:
+            msg = f.read()
+        detected_encoding = cchardet.detect(msg)
+        print(detected_encoding)
+        eq_(encoding.lower(),detected_encoding['encoding'].lower())
+
+    def test_detect_en_macroman(self):
+        encoding = "MacRoman"
+        path = r"testdata/en/MACROMAN/wikitop_en_MACROMAN.txt"
         with open(path, 'rb') as f:
             msg = f.read()
         detected_encoding = cchardet.detect(msg)
